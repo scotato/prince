@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D28A51692521725000C7D9E0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A51682521725000C7D9E0 /* WidgetKit.framework */; };
+		D28A516B2521725000C7D9E0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A516A2521725000C7D9E0 /* SwiftUI.framework */; };
+		D28A516E2521725000C7D9E0 /* PrinceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A516D2521725000C7D9E0 /* PrinceWidget.swift */; };
+		D28A51702521725300C7D9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28A516F2521725300C7D9E0 /* Assets.xcassets */; };
+		D28A51742521725300C7D9E0 /* PrinceWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D2DD8E4725202E5E009A70E4 /* princeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* princeApp.swift */; };
 		D2DD8E4825202E5E009A70E4 /* princeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* princeApp.swift */; };
 		D2DD8E4925202E5E009A70E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1F25202E5B009A70E4 /* ContentView.swift */; };
@@ -16,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D28A51722521725300C7D9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DD8E1925202E5A009A70E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28A51652521725000C7D9E0;
+			remoteInfo = PrinceWidgetExtension;
+		};
 		D2DD8E3625202E5E009A70E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D2DD8E1925202E5A009A70E4 /* Project object */;
@@ -32,7 +44,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D28A51782521725300C7D9E0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D28A51742521725300C7D9E0 /* PrinceWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PrinceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A51682521725000C7D9E0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D28A516A2521725000C7D9E0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D28A516D2521725000C7D9E0 /* PrinceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceWidget.swift; sourceTree = "<group>"; };
+		D28A516F2521725300C7D9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28A51712521725300C7D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2DD8E1E25202E5B009A70E4 /* princeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = princeApp.swift; sourceTree = "<group>"; };
 		D2DD8E1F25202E5B009A70E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2DD8E2025202E5E009A70E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +78,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D28A51632521725000C7D9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A516B2521725000C7D9E0 /* SwiftUI.framework in Frameworks */,
+				D28A51692521725000C7D9E0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2DD8E2225202E5E009A70E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,12 +118,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D28A51672521725000C7D9E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28A51682521725000C7D9E0 /* WidgetKit.framework */,
+				D28A516A2521725000C7D9E0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28A516C2521725000C7D9E0 /* PrinceWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D28A516D2521725000C7D9E0 /* PrinceWidget.swift */,
+				D28A516F2521725300C7D9E0 /* Assets.xcassets */,
+				D28A51712521725300C7D9E0 /* Info.plist */,
+			);
+			path = PrinceWidget;
+			sourceTree = "<group>";
+		};
 		D2DD8E1825202E5A009A70E4 = {
 			isa = PBXGroup;
 			children = (
 				D2DD8E1D25202E5B009A70E4 /* Shared */,
 				D2DD8E2725202E5E009A70E4 /* iOS */,
 				D2DD8E2E25202E5E009A70E4 /* macOS */,
+				D28A516C2521725000C7D9E0 /* PrinceWidget */,
+				D28A51672521725000C7D9E0 /* Frameworks */,
 				D2DD8E2625202E5E009A70E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +166,7 @@
 				D2DD8E2D25202E5E009A70E4 /* Prince.app */,
 				D2DD8E3525202E5E009A70E4 /* Tests iOS.xctest */,
 				D2DD8E4025202E5E009A70E4 /* Tests macOS.xctest */,
+				D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +191,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D28A51652521725000C7D9E0 /* PrinceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A51752521725300C7D9E0 /* Build configuration list for PBXNativeTarget "PrinceWidgetExtension" */;
+			buildPhases = (
+				D28A51622521725000C7D9E0 /* Sources */,
+				D28A51632521725000C7D9E0 /* Frameworks */,
+				D28A51642521725000C7D9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrinceWidgetExtension;
+			productName = PrinceWidgetExtension;
+			productReference = D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D2DD8E2425202E5E009A70E4 /* Prince (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2DD8E4F25202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Prince (iOS)" */;
@@ -135,10 +215,12 @@
 				D2DD8E2125202E5E009A70E4 /* Sources */,
 				D2DD8E2225202E5E009A70E4 /* Frameworks */,
 				D2DD8E2325202E5E009A70E4 /* Resources */,
+				D28A51782521725300C7D9E0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D28A51732521725300C7D9E0 /* PBXTargetDependency */,
 			);
 			name = "Prince (iOS)";
 			productName = "prince (iOS)";
@@ -207,6 +289,9 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					D28A51652521725000C7D9E0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					D2DD8E2425202E5E009A70E4 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -240,11 +325,20 @@
 				D2DD8E2C25202E5E009A70E4 /* Prince (macOS) */,
 				D2DD8E3425202E5E009A70E4 /* Tests iOS */,
 				D2DD8E3F25202E5E009A70E4 /* Tests macOS */,
+				D28A51652521725000C7D9E0 /* PrinceWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D28A51642521725000C7D9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A51702521725300C7D9E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2DD8E2325202E5E009A70E4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +372,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D28A51622521725000C7D9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A516E2521725000C7D9E0 /* PrinceWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2DD8E2125202E5E009A70E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,6 +415,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D28A51732521725300C7D9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28A51652521725000C7D9E0 /* PrinceWidgetExtension */;
+			targetProxy = D28A51722521725300C7D9E0 /* PBXContainerItemProxy */;
+		};
 		D2DD8E3725202E5E009A70E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D2DD8E2425202E5E009A70E4 /* Prince (iOS) */;
@@ -326,6 +433,53 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D28A51762521725300C7D9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A74TX23J32;
+				INFOPLIST_FILE = PrinceWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = design.goldilocks.prince.PrinceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D28A51772521725300C7D9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A74TX23J32;
+				INFOPLIST_FILE = PrinceWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = design.goldilocks.prince.PrinceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D2DD8E4D25202E5E009A70E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -440,6 +594,7 @@
 		D2DD8E5025202E5E009A70E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +617,7 @@
 		D2DD8E5125202E5E009A70E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -622,6 +778,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D28A51752521725300C7D9E0 /* Build configuration list for PBXNativeTarget "PrinceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28A51762521725300C7D9E0 /* Debug */,
+				D28A51772521725300C7D9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2DD8E1C25202E5A009A70E4 /* Build configuration list for PBXProject "Prince" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
