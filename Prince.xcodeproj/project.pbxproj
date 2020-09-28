@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2DD8E3A25202E5E009A70E4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E3925202E5E009A70E4 /* Tests_iOS.swift */; };
-		D2DD8E4525202E5E009A70E4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E4425202E5E009A70E4 /* Tests_macOS.swift */; };
 		D2DD8E4725202E5E009A70E4 /* princeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* princeApp.swift */; };
 		D2DD8E4825202E5E009A70E4 /* princeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* princeApp.swift */; };
 		D2DD8E4925202E5E009A70E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1F25202E5B009A70E4 /* ContentView.swift */; };
@@ -38,17 +36,13 @@
 		D2DD8E1E25202E5B009A70E4 /* princeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = princeApp.swift; sourceTree = "<group>"; };
 		D2DD8E1F25202E5B009A70E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2DD8E2025202E5E009A70E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2DD8E2525202E5E009A70E4 /* prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prince.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DD8E2525202E5E009A70E4 /* Prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prince.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DD8E2825202E5E009A70E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2DD8E2D25202E5E009A70E4 /* prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prince.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DD8E2D25202E5E009A70E4 /* Prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prince.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DD8E2F25202E5E009A70E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2DD8E3025202E5E009A70E4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		D2DD8E3525202E5E009A70E4 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DD8E3925202E5E009A70E4 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		D2DD8E3B25202E5E009A70E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2DD8E4025202E5E009A70E4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DD8E4425202E5E009A70E4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		D2DD8E4625202E5E009A70E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +83,6 @@
 				D2DD8E1D25202E5B009A70E4 /* Shared */,
 				D2DD8E2725202E5E009A70E4 /* iOS */,
 				D2DD8E2E25202E5E009A70E4 /* macOS */,
-				D2DD8E3825202E5E009A70E4 /* Tests iOS */,
-				D2DD8E4325202E5E009A70E4 /* Tests macOS */,
 				D2DD8E2625202E5E009A70E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,8 +100,8 @@
 		D2DD8E2625202E5E009A70E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2DD8E2525202E5E009A70E4 /* prince.app */,
-				D2DD8E2D25202E5E009A70E4 /* prince.app */,
+				D2DD8E2525202E5E009A70E4 /* Prince.app */,
+				D2DD8E2D25202E5E009A70E4 /* Prince.app */,
 				D2DD8E3525202E5E009A70E4 /* Tests iOS.xctest */,
 				D2DD8E4025202E5E009A70E4 /* Tests macOS.xctest */,
 			);
@@ -133,30 +125,12 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		D2DD8E3825202E5E009A70E4 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D2DD8E3925202E5E009A70E4 /* Tests_iOS.swift */,
-				D2DD8E3B25202E5E009A70E4 /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		D2DD8E4325202E5E009A70E4 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				D2DD8E4425202E5E009A70E4 /* Tests_macOS.swift */,
-				D2DD8E4625202E5E009A70E4 /* Info.plist */,
-			);
-			path = "Tests macOS";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2DD8E2425202E5E009A70E4 /* prince (iOS) */ = {
+		D2DD8E2425202E5E009A70E4 /* Prince (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2DD8E4F25202E5E009A70E4 /* Build configuration list for PBXNativeTarget "prince (iOS)" */;
+			buildConfigurationList = D2DD8E4F25202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Prince (iOS)" */;
 			buildPhases = (
 				D2DD8E2125202E5E009A70E4 /* Sources */,
 				D2DD8E2225202E5E009A70E4 /* Frameworks */,
@@ -166,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "prince (iOS)";
+			name = "Prince (iOS)";
 			productName = "prince (iOS)";
-			productReference = D2DD8E2525202E5E009A70E4 /* prince.app */;
+			productReference = D2DD8E2525202E5E009A70E4 /* Prince.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2DD8E2C25202E5E009A70E4 /* prince (macOS) */ = {
+		D2DD8E2C25202E5E009A70E4 /* Prince (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2DD8E5225202E5E009A70E4 /* Build configuration list for PBXNativeTarget "prince (macOS)" */;
+			buildConfigurationList = D2DD8E5225202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Prince (macOS)" */;
 			buildPhases = (
 				D2DD8E2925202E5E009A70E4 /* Sources */,
 				D2DD8E2A25202E5E009A70E4 /* Frameworks */,
@@ -183,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = "prince (macOS)";
+			name = "Prince (macOS)";
 			productName = "prince (macOS)";
-			productReference = D2DD8E2D25202E5E009A70E4 /* prince.app */;
+			productReference = D2DD8E2D25202E5E009A70E4 /* Prince.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D2DD8E3425202E5E009A70E4 /* Tests iOS */ = {
@@ -249,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2DD8E1C25202E5A009A70E4 /* Build configuration list for PBXProject "prince" */;
+			buildConfigurationList = D2DD8E1C25202E5A009A70E4 /* Build configuration list for PBXProject "Prince" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2DD8E2425202E5E009A70E4 /* prince (iOS) */,
-				D2DD8E2C25202E5E009A70E4 /* prince (macOS) */,
+				D2DD8E2425202E5E009A70E4 /* Prince (iOS) */,
+				D2DD8E2C25202E5E009A70E4 /* Prince (macOS) */,
 				D2DD8E3425202E5E009A70E4 /* Tests iOS */,
 				D2DD8E3F25202E5E009A70E4 /* Tests macOS */,
 			);
@@ -326,7 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DD8E3A25202E5E009A70E4 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +307,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DD8E4525202E5E009A70E4 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,12 +315,12 @@
 /* Begin PBXTargetDependency section */
 		D2DD8E3725202E5E009A70E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2DD8E2425202E5E009A70E4 /* prince (iOS) */;
+			target = D2DD8E2425202E5E009A70E4 /* Prince (iOS) */;
 			targetProxy = D2DD8E3625202E5E009A70E4 /* PBXContainerItemProxy */;
 		};
 		D2DD8E4225202E5E009A70E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2DD8E2C25202E5E009A70E4 /* prince (macOS) */;
+			target = D2DD8E2C25202E5E009A70E4 /* Prince (macOS) */;
 			targetProxy = D2DD8E4125202E5E009A70E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = design.goldilocks.prince;
-				PRODUCT_NAME = prince;
+				PRODUCT_NAME = Prince;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = design.goldilocks.prince;
-				PRODUCT_NAME = prince;
+				PRODUCT_NAME = Prince;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,7 +500,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = design.goldilocks.prince;
-				PRODUCT_NAME = prince;
+				PRODUCT_NAME = Prince;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -552,7 +524,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = design.goldilocks.prince;
-				PRODUCT_NAME = prince;
+				PRODUCT_NAME = Prince;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -650,7 +622,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2DD8E1C25202E5A009A70E4 /* Build configuration list for PBXProject "prince" */ = {
+		D2DD8E1C25202E5A009A70E4 /* Build configuration list for PBXProject "Prince" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2DD8E4D25202E5E009A70E4 /* Debug */,
@@ -659,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2DD8E4F25202E5E009A70E4 /* Build configuration list for PBXNativeTarget "prince (iOS)" */ = {
+		D2DD8E4F25202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Prince (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2DD8E5025202E5E009A70E4 /* Debug */,
@@ -668,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2DD8E5225202E5E009A70E4 /* Build configuration list for PBXNativeTarget "prince (macOS)" */ = {
+		D2DD8E5225202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Prince (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2DD8E5325202E5E009A70E4 /* Debug */,
