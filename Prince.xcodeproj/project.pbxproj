@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D221C4C925223C1200A59748 /* PrinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221C4C825223C1200A59748 /* PrinceModel.swift */; };
+		D221C4CA25223C1200A59748 /* PrinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221C4C825223C1200A59748 /* PrinceModel.swift */; };
+		D221C4CB25223C1200A59748 /* PrinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221C4C825223C1200A59748 /* PrinceModel.swift */; };
+		D221C4F32522582F00A59748 /* PrintStatusWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221C4F22522582F00A59748 /* PrintStatusWidget.swift */; };
+		D221C4F42522582F00A59748 /* PrintStatusWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221C4F22522582F00A59748 /* PrintStatusWidget.swift */; };
+		D221C4F52522582F00A59748 /* PrintStatusWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221C4F22522582F00A59748 /* PrintStatusWidget.swift */; };
+		D23B0DD9252290F500CC9E34 /* Octoprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B0DD8252290F500CC9E34 /* Octoprint.swift */; };
+		D23B0DDA252290F500CC9E34 /* Octoprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B0DD8252290F500CC9E34 /* Octoprint.swift */; };
+		D23B0DDB252290F500CC9E34 /* Octoprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B0DD8252290F500CC9E34 /* Octoprint.swift */; };
 		D28A51692521725000C7D9E0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A51682521725000C7D9E0 /* WidgetKit.framework */; };
 		D28A516B2521725000C7D9E0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A516A2521725000C7D9E0 /* SwiftUI.framework */; };
-		D28A516E2521725000C7D9E0 /* PrinceWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A516D2521725000C7D9E0 /* PrinceWidget.swift */; };
+		D28A516E2521725000C7D9E0 /* PrinceWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A516D2521725000C7D9E0 /* PrinceWidgets.swift */; };
 		D28A51702521725300C7D9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28A516F2521725300C7D9E0 /* Assets.xcassets */; };
 		D28A51742521725300C7D9E0 /* PrinceWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D2DD8E4725202E5E009A70E4 /* princeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* princeApp.swift */; };
-		D2DD8E4825202E5E009A70E4 /* princeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* princeApp.swift */; };
+		D2DD8E4725202E5E009A70E4 /* PrinceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* PrinceApp.swift */; };
+		D2DD8E4825202E5E009A70E4 /* PrinceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1E25202E5B009A70E4 /* PrinceApp.swift */; };
 		D2DD8E4925202E5E009A70E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1F25202E5B009A70E4 /* ContentView.swift */; };
 		D2DD8E4A25202E5E009A70E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DD8E1F25202E5B009A70E4 /* ContentView.swift */; };
 		D2DD8E4B25202E5E009A70E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DD8E2025202E5E009A70E4 /* Assets.xcassets */; };
@@ -59,13 +68,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D221C4C825223C1200A59748 /* PrinceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceModel.swift; sourceTree = "<group>"; };
+		D221C4F22522582F00A59748 /* PrintStatusWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintStatusWidget.swift; sourceTree = "<group>"; };
+		D23B0DD8252290F500CC9E34 /* Octoprint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octoprint.swift; sourceTree = "<group>"; };
 		D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PrinceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A51682521725000C7D9E0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		D28A516A2521725000C7D9E0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		D28A516D2521725000C7D9E0 /* PrinceWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceWidget.swift; sourceTree = "<group>"; };
+		D28A516D2521725000C7D9E0 /* PrinceWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceWidgets.swift; sourceTree = "<group>"; };
 		D28A516F2521725300C7D9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D28A51712521725300C7D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2DD8E1E25202E5B009A70E4 /* princeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = princeApp.swift; sourceTree = "<group>"; };
+		D2DD8E1E25202E5B009A70E4 /* PrinceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceApp.swift; sourceTree = "<group>"; };
 		D2DD8E1F25202E5B009A70E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2DD8E2025202E5E009A70E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2DD8E2525202E5E009A70E4 /* Prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prince.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +130,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D221C4D325223C5800A59748 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D221C4C825223C1200A59748 /* PrinceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D23B0DE1252290FB00CC9E34 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D23B0DD8252290F500CC9E34 /* Octoprint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		D28A51672521725000C7D9E0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +158,8 @@
 		D28A516C2521725000C7D9E0 /* PrinceWidget */ = {
 			isa = PBXGroup;
 			children = (
-				D28A516D2521725000C7D9E0 /* PrinceWidget.swift */,
+				D28A516D2521725000C7D9E0 /* PrinceWidgets.swift */,
+				D221C4F22522582F00A59748 /* PrintStatusWidget.swift */,
 				D28A516F2521725300C7D9E0 /* Assets.xcassets */,
 				D28A51712521725300C7D9E0 /* Info.plist */,
 			);
@@ -152,9 +181,11 @@
 		D2DD8E1D25202E5B009A70E4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				D2DD8E1E25202E5B009A70E4 /* princeApp.swift */,
+				D2DD8E1E25202E5B009A70E4 /* PrinceApp.swift */,
 				D2DD8E1F25202E5B009A70E4 /* ContentView.swift */,
 				D2DD8E2025202E5E009A70E4 /* Assets.xcassets */,
+				D221C4D325223C5800A59748 /* Model */,
+				D23B0DE1252290FB00CC9E34 /* API */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -376,7 +407,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D28A516E2521725000C7D9E0 /* PrinceWidget.swift in Sources */,
+				D23B0DDB252290F500CC9E34 /* Octoprint.swift in Sources */,
+				D221C4F52522582F00A59748 /* PrintStatusWidget.swift in Sources */,
+				D221C4CB25223C1200A59748 /* PrinceModel.swift in Sources */,
+				D28A516E2521725000C7D9E0 /* PrinceWidgets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +419,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DD8E4925202E5E009A70E4 /* ContentView.swift in Sources */,
-				D2DD8E4725202E5E009A70E4 /* princeApp.swift in Sources */,
+				D2DD8E4725202E5E009A70E4 /* PrinceApp.swift in Sources */,
+				D23B0DD9252290F500CC9E34 /* Octoprint.swift in Sources */,
+				D221C4C925223C1200A59748 /* PrinceModel.swift in Sources */,
+				D221C4F32522582F00A59748 /* PrintStatusWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +431,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DD8E4A25202E5E009A70E4 /* ContentView.swift in Sources */,
-				D2DD8E4825202E5E009A70E4 /* princeApp.swift in Sources */,
+				D2DD8E4825202E5E009A70E4 /* PrinceApp.swift in Sources */,
+				D23B0DDA252290F500CC9E34 /* Octoprint.swift in Sources */,
+				D221C4CA25223C1200A59748 /* PrinceModel.swift in Sources */,
+				D221C4F42522582F00A59748 /* PrintStatusWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

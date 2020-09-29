@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct princeApp: App {
+struct PrinceApp: App {
+    @StateObject private var model = PrinceModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(model)
         }
+//        .commands {
+//            SidebarCommands()
+//        }
     }
 }
