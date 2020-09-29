@@ -16,6 +16,8 @@
 		D23B0DD9252290F500CC9E34 /* Octoprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B0DD8252290F500CC9E34 /* Octoprint.swift */; };
 		D23B0DDA252290F500CC9E34 /* Octoprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B0DD8252290F500CC9E34 /* Octoprint.swift */; };
 		D23B0DDB252290F500CC9E34 /* Octoprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B0DD8252290F500CC9E34 /* Octoprint.swift */; };
+		D28086032522D13A002041D4 /* CodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28086022522D13A002041D4 /* CodeScanner.swift */; };
+		D280860A2522D1D3002041D4 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28086092522D1D3002041D4 /* ScannerView.swift */; };
 		D28A51692521725000C7D9E0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A51682521725000C7D9E0 /* WidgetKit.framework */; };
 		D28A516B2521725000C7D9E0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28A516A2521725000C7D9E0 /* SwiftUI.framework */; };
 		D28A516E2521725000C7D9E0 /* PrinceWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A516D2521725000C7D9E0 /* PrinceWidgets.swift */; };
@@ -37,20 +39,6 @@
 			remoteGlobalIDString = D28A51652521725000C7D9E0;
 			remoteInfo = PrinceWidgetExtension;
 		};
-		D2DD8E3625202E5E009A70E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2DD8E1925202E5A009A70E4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2DD8E2425202E5E009A70E4;
-			remoteInfo = "prince (iOS)";
-		};
-		D2DD8E4125202E5E009A70E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2DD8E1925202E5A009A70E4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2DD8E2C25202E5E009A70E4;
-			remoteInfo = "prince (macOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +59,10 @@
 		D221C4C825223C1200A59748 /* PrinceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceModel.swift; sourceTree = "<group>"; };
 		D221C4F22522582F00A59748 /* PrintStatusWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintStatusWidget.swift; sourceTree = "<group>"; };
 		D23B0DD8252290F500CC9E34 /* Octoprint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Octoprint.swift; sourceTree = "<group>"; };
+		D28086022522D13A002041D4 /* CodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanner.swift; sourceTree = "<group>"; };
+		D28086092522D1D3002041D4 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		D28086282522DD20002041D4 /* Prince.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prince.entitlements; sourceTree = "<group>"; };
+		D280862C2522DD56002041D4 /* PrinceWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrinceWidgetExtension.entitlements; sourceTree = "<group>"; };
 		D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PrinceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D28A51682521725000C7D9E0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		D28A516A2521725000C7D9E0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -85,8 +77,6 @@
 		D2DD8E2D25202E5E009A70E4 /* Prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prince.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DD8E2F25202E5E009A70E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2DD8E3025202E5E009A70E4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		D2DD8E3525202E5E009A70E4 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DD8E4025202E5E009A70E4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,20 +97,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D2DD8E2A25202E5E009A70E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2DD8E3225202E5E009A70E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2DD8E3D25202E5E009A70E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -169,6 +145,8 @@
 		D2DD8E1825202E5A009A70E4 = {
 			isa = PBXGroup;
 			children = (
+				D280862C2522DD56002041D4 /* PrinceWidgetExtension.entitlements */,
+				D28086282522DD20002041D4 /* Prince.entitlements */,
 				D2DD8E1D25202E5B009A70E4 /* Shared */,
 				D2DD8E2725202E5E009A70E4 /* iOS */,
 				D2DD8E2E25202E5E009A70E4 /* macOS */,
@@ -183,6 +161,7 @@
 			children = (
 				D2DD8E1E25202E5B009A70E4 /* PrinceApp.swift */,
 				D2DD8E1F25202E5B009A70E4 /* ContentView.swift */,
+				D28086092522D1D3002041D4 /* ScannerView.swift */,
 				D2DD8E2025202E5E009A70E4 /* Assets.xcassets */,
 				D221C4D325223C5800A59748 /* Model */,
 				D23B0DE1252290FB00CC9E34 /* API */,
@@ -195,8 +174,6 @@
 			children = (
 				D2DD8E2525202E5E009A70E4 /* Prince.app */,
 				D2DD8E2D25202E5E009A70E4 /* Prince.app */,
-				D2DD8E3525202E5E009A70E4 /* Tests iOS.xctest */,
-				D2DD8E4025202E5E009A70E4 /* Tests macOS.xctest */,
 				D28A51662521725000C7D9E0 /* PrinceWidgetExtension.appex */,
 			);
 			name = Products;
@@ -206,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				D2DD8E2825202E5E009A70E4 /* Info.plist */,
+				D28086022522D13A002041D4 /* CodeScanner.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -275,42 +253,6 @@
 			productReference = D2DD8E2D25202E5E009A70E4 /* Prince.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2DD8E3425202E5E009A70E4 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2DD8E5525202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				D2DD8E3125202E5E009A70E4 /* Sources */,
-				D2DD8E3225202E5E009A70E4 /* Frameworks */,
-				D2DD8E3325202E5E009A70E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2DD8E3725202E5E009A70E4 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = D2DD8E3525202E5E009A70E4 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		D2DD8E3F25202E5E009A70E4 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2DD8E5825202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				D2DD8E3C25202E5E009A70E4 /* Sources */,
-				D2DD8E3D25202E5E009A70E4 /* Frameworks */,
-				D2DD8E3E25202E5E009A70E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2DD8E4225202E5E009A70E4 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = D2DD8E4025202E5E009A70E4 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -329,14 +271,6 @@
 					D2DD8E2C25202E5E009A70E4 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					D2DD8E3425202E5E009A70E4 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = D2DD8E2425202E5E009A70E4;
-					};
-					D2DD8E3F25202E5E009A70E4 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = D2DD8E2C25202E5E009A70E4;
-					};
 				};
 			};
 			buildConfigurationList = D2DD8E1C25202E5A009A70E4 /* Build configuration list for PBXProject "Prince" */;
@@ -354,8 +288,6 @@
 			targets = (
 				D2DD8E2425202E5E009A70E4 /* Prince (iOS) */,
 				D2DD8E2C25202E5E009A70E4 /* Prince (macOS) */,
-				D2DD8E3425202E5E009A70E4 /* Tests iOS */,
-				D2DD8E3F25202E5E009A70E4 /* Tests macOS */,
 				D28A51652521725000C7D9E0 /* PrinceWidgetExtension */,
 			);
 		};
@@ -386,20 +318,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DD8E3325202E5E009A70E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2DD8E3E25202E5E009A70E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -421,7 +339,9 @@
 				D2DD8E4925202E5E009A70E4 /* ContentView.swift in Sources */,
 				D2DD8E4725202E5E009A70E4 /* PrinceApp.swift in Sources */,
 				D23B0DD9252290F500CC9E34 /* Octoprint.swift in Sources */,
+				D28086032522D13A002041D4 /* CodeScanner.swift in Sources */,
 				D221C4C925223C1200A59748 /* PrinceModel.swift in Sources */,
+				D280860A2522D1D3002041D4 /* ScannerView.swift in Sources */,
 				D221C4F32522582F00A59748 /* PrintStatusWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,20 +358,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DD8E3125202E5E009A70E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2DD8E3C25202E5E009A70E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -459,16 +365,6 @@
 			isa = PBXTargetDependency;
 			target = D28A51652521725000C7D9E0 /* PrinceWidgetExtension */;
 			targetProxy = D28A51722521725300C7D9E0 /* PBXContainerItemProxy */;
-		};
-		D2DD8E3725202E5E009A70E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2DD8E2425202E5E009A70E4 /* Prince (iOS) */;
-			targetProxy = D2DD8E3625202E5E009A70E4 /* PBXContainerItemProxy */;
-		};
-		D2DD8E4225202E5E009A70E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2DD8E2C25202E5E009A70E4 /* Prince (macOS) */;
-			targetProxy = D2DD8E4125202E5E009A70E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -478,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PrinceWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A74TX23J32;
 				INFOPLIST_FILE = PrinceWidget/Info.plist;
@@ -501,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PrinceWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A74TX23J32;
 				INFOPLIST_FILE = PrinceWidget/Info.plist;
@@ -637,6 +535,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prince.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A74TX23J32;
 				ENABLE_PREVIEWS = YES;
@@ -660,6 +559,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prince.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A74TX23J32;
 				ENABLE_PREVIEWS = YES;
@@ -726,95 +626,6 @@
 			};
 			name = Release;
 		};
-		D2DD8E5625202E5E009A70E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A74TX23J32;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "design.goldilocks.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "prince (iOS)";
-			};
-			name = Debug;
-		};
-		D2DD8E5725202E5E009A70E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A74TX23J32;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "design.goldilocks.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "prince (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D2DD8E5925202E5E009A70E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = A74TX23J32;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "design.goldilocks.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "prince (macOS)";
-			};
-			name = Debug;
-		};
-		D2DD8E5A25202E5E009A70E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = A74TX23J32;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "design.goldilocks.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "prince (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -850,24 +661,6 @@
 			buildConfigurations = (
 				D2DD8E5325202E5E009A70E4 /* Debug */,
 				D2DD8E5425202E5E009A70E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2DD8E5525202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2DD8E5625202E5E009A70E4 /* Debug */,
-				D2DD8E5725202E5E009A70E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2DD8E5825202E5E009A70E4 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2DD8E5925202E5E009A70E4 /* Debug */,
-				D2DD8E5A25202E5E009A70E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

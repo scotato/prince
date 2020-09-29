@@ -6,11 +6,24 @@
 //
 
 import SwiftUI
+import AuthenticationServices
 
 struct ContentView: View {
+    @EnvironmentObject private var model: PrinceModel
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            ScannerView()
+            
+//            if !model.hasAccount {
+//                Text("Sign up to access on all devices")
+//                    .font(Font.headline.bold())
+//
+//                SignInWithAppleButton(.signUp, onRequest: { _ in }, onCompletion: model.authorizeUser)
+//                    .frame(minWidth: 100, maxWidth: 400)
+//                    .padding(.horizontal, 20)
+//            }
+        }
     }
 }
 
